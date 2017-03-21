@@ -285,6 +285,7 @@ open class ActionController<ActionViewType: UICollectionViewCell, ActionDataType
                         cancelButton.setTitle(settings.cancelView.title, for: UIControlState())
 						cancelButton.titleLabel?.font = settings.cancelView.titleFont
 						cancelButton.setTitleColor(settings.cancelView.titleColor, for: .normal)
+						cancelButton.setTitleColor(settings.cancelView.titleColorHighlighted, for: .highlighted)
                         cancelButton.translatesAutoresizingMaskIntoConstraints = false
                         return cancelButton
                     }()

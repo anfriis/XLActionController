@@ -76,6 +76,10 @@ public struct ActionControllerSettings {
 		* The title label's text color. Has a default value
 		*/
 		public var titleColor: UIColor? = .white
+		/**
+		* The title label's text color when highlighted. Has a default value
+		*/
+		public var titleColorHighlighted: UIColor? = .gray
         /**
          * The cancel view's height. Its default value is `60`.
          */
